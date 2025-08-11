@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Display Property Demo</title>
+  <link rel="stylesheet" href="/CSS/dsp.css">
+</head>
+<style>
+h1{
+    color: red;
+  }
+</style>
+<h1> Display Properties </h1>
+<body>
+<h2>Block</h2>
+    <div style="background-color: lightgreen; display: block;">This is a block-level div 1.</div>
+    <div style="background-color: lightcoral; display: block;">This is second block-level div.</div>
+
+<h2>Inline</h2>
+    <span style="background-color: lightgreen; display: inline;">This is an inline span.</span>
+    <span style="background-color: lightcoral; display: inline;">This is another inline span.</span>
+
+<h2> Inline - Block </h2>
+    <div style="background-color: lightgreen; display: inline-block; width: 150px; height: 50px;">Inline-block 1</div>
+    <div style="background-color: lightcoral; display: inline-block; width: 150px; height: 50px;">Inline-block 2</div>
+
+<h2> Visibility None (Hidden) </h2>
+    <p style="display: none;">This paragraph will not be visible.</p>
+    <div style="background-color: lightgreen; display: none; width: 150px; height: 50px;">Visibility none</div>
+   <div style="background-color: blueviolet; display:inline-block; width: 150px; height: 50px;">Visibility</div>
+
+<h2>Flex</h2>
+       <div style="display: flex container; border: 1px solid black;">
+      <div style="background-color: lightblue;">Flex one</div>
+      <div style="background-color: lightcoral;">Flex Two</div>
+      <div style="background-color: lightseagreen;">Flex Three</div>
+</div>
+
+<h2>Grid</h2>
+
+<div style="display: grid; grid-template-rows: 1fr 1fr; gap: 10px; border: 1px solid black;">
+      <div style="background-color: lightblue;">Grid 1</div>
+      <div style="background-color: lightcoral;">Grid 2</div>
+      <div style="background-color: lightgreen;">Grid 3</div>
+      <div style="background-color: lightseagreen;">Grid 4</div>
+    </div>
+<br>
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 10px; border: 1px solid black;">
+      <div style="background-color: lightblue;">Grid 1</div>
+      <div style="background-color: lightcoral;">Grid 2</div>
+      <div style="background-color: lightgreen;">Grid 3</div>
+      <div style="background-color: lightseagreen;">Grid 4</div>
+    </div>
+</body>
+</html>
