@@ -131,3 +131,27 @@ let result = (marks >= 40) ? 'pass' : 'fail';
 
 console.log(`You ${result} the exam.`);
 
+let age = 20;
+let status = (age <= 18) ? "Adult" : "Minor";
+
+console.log(status);
+
+//Equality operator : ==, ===
+let m = 10;
+let p = 20;
+if(m == p){
+console.log(`both are equal`);
+}
+else{
+console.log(`both are not equal`);
+}
+
+let empID = 12345;
+let empname = 'Aishu';
+if(empID === empname){
+console.log(`both are equal`);
+}
+else{
+console.log(`both are not equal`);
+}
+
